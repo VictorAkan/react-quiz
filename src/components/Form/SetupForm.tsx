@@ -59,7 +59,7 @@ const SetupForm = () => {
                     </div>
                     {error && <p className="error">can't generate questions, please try different questions</p>}
                     <div className="flex justify-center">
-                        <button type="submit" className="capitalize mt-10" onClick={handleSubmit}>
+                        <button type="submit" className="capitalize mt-10 p-1 rounded-lg font-semibold bg-amber-400 hover:bg-amber-300 w-full" onClick={handleSubmit}>
                         start
                     </button>
                     </div>
